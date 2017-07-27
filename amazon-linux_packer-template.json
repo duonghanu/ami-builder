@@ -30,7 +30,7 @@
         "sudo yum update -y",
         "echo 'No authorized access permitted' | sudo tee /etc/motd",
         "sudo rm /etc/issue",
-        "sudo ln -s /etc/motd /etc/issue",
+        "sudo ln -sf /etc/motd /etc/issue",
         "sudo yum install -y elinks screen"
       ]
     }
